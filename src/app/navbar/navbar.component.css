@@ -1,0 +1,25 @@
+header {
+    /* background-color: linear-gradient(180deg #c4b6fd, #93acfc); */
+    
+     /* background-color: #c4b6fd; */
+}
+.navbar-brand,
+.text-primary {
+    color: #dc3545;
+}
+.nav-link {
+    font-weight: 500;
+}
+
+.btn-primary {
+    background-color: #dc3545;
+    border: none;
+}
+
+.nav-link:hover {
+    color: #dc3545;
+}
+
+p {
+    font-size: 18px;
+}

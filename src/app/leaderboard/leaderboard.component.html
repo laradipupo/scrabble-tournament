@@ -1,1 +1,19 @@
-<p>leaderboard works!</p>
+<div class="leaderboard">
+    <h1>Tournament Leaderboard</h1>
+    <table>
+      <thead>
+        <tr>
+          <th>Player Name</th>
+          <th>Total Score</th>
+          <th>Games Played</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr *ngFor="let data of mappedData">
+          <td>{{ data.name }}</td>
+          <td>{{ data.totalScore }}</td>
+          <td>{{ data.gamesPlayed }}</td>
+        </tr>
+      </tbody>
+    </table>
