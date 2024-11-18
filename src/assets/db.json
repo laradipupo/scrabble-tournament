@@ -1,60 +1,60 @@
 {
   "players":[
-{
-"playerId":1,
-"name":"Karl Krueger"
-},
-{
-"playerId":2,
-"name":"Aaron Ashworth"
-},
-{
-"playerId":3,
-"name":"Elliot Earnshaw"
-},
-{
-"playerId":4,
-"name":"Tony Troy"
-},
-{
-"playerId":5,
-"name":"Sally Smith"
-},
-{
-"playerId":6,
-"name":"Bob Bronson"
-}
-],
+    {
+      "playerId":1,
+      "name":"Karl Krueger"
+    },
+    {
+      "playerId":2,
+      "name":"Aaron Ashworth"
+    },
+    {
+      "playerId":3,
+      "name":"Elliot Earnshaw"
+    },
+    {
+      "playerId":4,
+      "name":"Tony Troy"
+    },
+    {
+      "playerId":5,
+      "name":"Sally Smith"
+    },
+    {
+      "playerId":6,
+      "name":"Bob Bronson"
+    }
+  ],
   "results":[
-{
-"playerId":5,
-"totalScore":410,
-"gamesPlayed":16
-},
-{
-"playerId":2,
-"totalScore":640,
-"gamesPlayed":15
-},
-{
-"playerId":6,
-"totalScore":200,
-"gamesPlayed":9
-},
-{
-"playerId":1,
-"totalScore":700,
-"gamesPlayed":9
-},
-{
-"playerId":4,
-"totalScore":150,
-"gamesPlayed":9
-},
-{
-"playerId":3,
-"totalScore":50,
-"gamesPlayed":3
-}
-]
+    {
+      "playerId":5,
+      "totalScore":410,
+      "gamesPlayed":16
+    },
+    {
+      "playerId":2,
+      "totalScore":640,
+      "gamesPlayed":15
+    },
+    {
+      "playerId":6,
+      "totalScore":200,
+      "gamesPlayed":9
+    },
+    {
+      "playerId":1,
+      "totalScore":700,
+      "gamesPlayed":9
+    },
+    {
+      "playerId":4,
+      "totalScore":150,
+      "gamesPlayed":9
+    },
+    {
+      "playerId":3,
+      "totalScore":50,
+      "gamesPlayed":3
+    }
+  ]
 }

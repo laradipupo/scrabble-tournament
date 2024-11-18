@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Observable, map } from 'rxjs';
-import { mappedData } from '../interfaces/result';
+import { MappedData } from '../interfaces/result';
 import { player } from '../interfaces/player';
 import { result } from '../interfaces/result';
 
@@ -14,7 +14,7 @@ export class DataService {
 
   constructor(private http: HttpClient) { }
 
-getMappedData(): Observable<mappedData[]> {
+getMappedData(): Observable<MappedData[]> {
   return this.http.get<{ players: player[]; results: result[] }>(this.dataUrl)
       .pipe(
           map(data => {
@@ -32,7 +32,7 @@ getMappedData(): Observable<mappedData[]> {
                       gamesPlayed: result.gamesPlayed,
                   };
                   return mappedEntry;
-              }).sort((a: mappedData, b: mappedData) => b.totalScore - a.totalScore);
+              }).sort((a: MappedData, b: MappedData) => b.totalScore - a.totalScore);
           }),
       );
 }

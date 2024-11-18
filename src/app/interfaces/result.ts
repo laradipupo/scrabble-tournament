@@ -4,7 +4,7 @@ export interface result {
     gamesPlayed: number;
   }
   
- export interface mappedData {
+ export interface MappedData {
     name: string;
     totalScore: number;
     gamesPlayed: number;
